@@ -10,11 +10,27 @@ public class SleepyHead {
 
     public static void main(String[] args) {
         
-        boolean isWeekday, isVacation;
-        
+        boolean isWeekday;
+		boolean isVacation;
+        int isweekday = 0;
         /* You MUST use the above boolean variables in your code */
         
+        
+        int isvacation = JOptionPane.showConfirmDialog(null, "Is it a Vacation?", "Sleepy head", JOptionPane.YES_NO_OPTION);
+        System.out.println(isvacation);
+        isweekday = JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy head", JOptionPane.YES_NO_OPTION);
+        if (isvacation == 1) {
+        	JOptionPane.showMessageDialog(null, "Sleep in");
+        	isVacation = true;
+        }
+         if (isweekday == 0) {
+        	JOptionPane.showMessageDialog(null, "Wake up at 7:00");
+        }
+         if (isweekday == 1) {
+        	JOptionPane.showMessageDialog(null, "Sleep in until 10:00");
+        }
         /*
+         * 
          * Ask the user for these values using a confirm dialog like the one below
          * JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
          */
