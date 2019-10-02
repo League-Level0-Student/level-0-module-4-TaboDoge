@@ -18,15 +18,23 @@ String Thing = "1�2�3�4�5�6��8�9�10�11�7�13�14�15�
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
 			for(int i =0; i < Thing.length(); i++) {
-				if(Thing.charAt(i)==7) {
+				if(i==7) {
 					System.out.println("7 is at index: " + i);
 				}
-				
+				else {
+					
+				}
 			}
 		
 			
+		//BROKEN.
+			
+			
+			
+			
+			
 		
-		// 5. Pick a char inside your String, and use a loop to determine
+			// 5. Pick a char inside your String, and use a loop to determine
 		//    what position/index in the String the char is located.
 		//    Print the char's position to the console.
 		//    EXAMPLE: if your string is "abc" and you are searching 
