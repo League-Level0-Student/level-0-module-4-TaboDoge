@@ -17,7 +17,7 @@ String petType = JOptionPane.showInputDialog("What pet do you want: cat/dog");
 			// 3. Use showOptionDialog to ask the user what they want to do to make their pet happy
 			//    (eg: cuddle, food, water, take a walk, groom, clean up poop).
 			//    Make sure to customize the title and question too.
-for(int i=0; i < 5; i++) {
+for(int i=0; i < 7; i++) {
 			int task = JOptionPane.showOptionDialog(null, "What do you want to do?", "Happiness", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "Groom your "+petType, "Take your "+petType+ " outside", "Give your "+petType+" food" }, null);
 				JOptionPane.showOptionDialog(null, task, petType, task, task, null, args, task);
