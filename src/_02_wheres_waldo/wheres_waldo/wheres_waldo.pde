@@ -5,9 +5,10 @@ AudioSample woohoo;
 
 void setup() {
   PImage waldo = loadImage("waldo.jpg"); // Change this to match your file name.
-  size(500, 500);
+  size(1000, 800);
+  //size(700, 540);
   image(waldo, 0, 0);
-  doh = minim.loadSample("homer-doh.wav"); //drag and drop from project onto sketch
+  //image(waldo, -150, 0);
   woohoo = minim.loadSample("homer-woohoo.wav"); //drag and drop from project onto sketch } 
 }
 

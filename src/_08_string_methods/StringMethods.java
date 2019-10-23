@@ -20,11 +20,12 @@ String Thing = "aaaaaaaaa7aaaaaaaaaaaaaaaaaa";
 		System.out.println(Thing.length());
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
-		int r = 0;
+		int r = -1;
 			for(int i =0; i < 28; i++) {
 				r++;
+				r = r * 4;
 			 if(Thing.charAt(r)==7) {
-				System.out.println("7 is at index "+ i)	;
+				System.out.println("7 is at index "+ r)	;
 				}
 			 else {
 				 
