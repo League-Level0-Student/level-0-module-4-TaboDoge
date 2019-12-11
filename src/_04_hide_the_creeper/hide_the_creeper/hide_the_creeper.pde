@@ -12,7 +12,7 @@ void draw() {
 
 
 image(tree, 374 - 30, 350 - 30); 
-if (mouseX > 329 && mouseX < 416 && mouseY > 311){
+if (mouseX > 329 && mouseX < 416 && mouseY > 311 && mouseY < 351){
   if(mousePressed){
   fill(#057126);
    ellipse(mouseX,mouseY,30,30);
